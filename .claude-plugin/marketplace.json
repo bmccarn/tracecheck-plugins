@@ -1,0 +1,14 @@
+{
+  "name": "tracecheck-plugins",
+  "owner": {
+    "name": "bmccarn"
+  },
+  "description": "Evidence-backed code review powered by Jev",
+  "plugins": [
+    {
+      "name": "tracecheck",
+      "source": "./plugins/tracecheck",
+      "description": "Evidence-backed code review powered by Jev"
+    }
+  ]
+}

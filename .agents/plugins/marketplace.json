@@ -1,0 +1,20 @@
+{
+  "name": "tracecheck-plugins",
+  "interface": {
+    "displayName": "Tracecheck"
+  },
+  "plugins": [
+    {
+      "name": "tracecheck",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tracecheck"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
